@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+nav {
+  margin-bottom: 60px;
 }
 
 .App-logo {
@@ -35,4 +41,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.song1 {
+  padding: 40px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgb(107, 63, 251) 0%, rgb(252, 70, 70) 100%);
+  height: max-content;
+  border-radius: 2%;
+}
+.song2 {
+  padding: 40px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgb(251, 248, 63) 0%, rgb(252, 70, 70) 100%);
+  height: max-content;
+  border-radius: 2%;
+}
+
+
+Form.select{
+ margin-bottom: 10px;
+}
+
+.mb-3{
+  padding-bottom: 60px;
 }
